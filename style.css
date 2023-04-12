@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.center {
+    margin: 0;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#img {
+    width: 676px;
+    height: 493px;
+    border-radius: 50px;
+    animation: hamham 4s infinite;
+}
+
+@keyframes hamham {
+    0% {
+        background-image: url(img/bar1.jpg);
+    }
+    10% {
+        background-image: url(img/bar2.jpg);
+    }
+    20% {
+        background-image: url(img/bar3.jpg);
+    }
+    30% {
+        background-image: url(img/bar4.jpg);
+    }
+    40% {
+        background-image: url(img/bar5.jpg);
+    }
+    50% {
+        background-image: url(img/bar6.jpg);
+    }
+    60% {
+        background-image: url(img/bar7.jpg);
+    }
+    78% {
+        background-image: url(img/bar5.jpg);
+    }
+    81% {
+        background-image: url(img/bar4.jpg);
+    }
+    84% {
+        background-image: url(img/bar3.jpg);
+    }
+    87% {
+        background-image: url(img/bar2.jpg);
+    }
+    100% {
+        background-image: url(img/bar1.jpg);
+    }
+}
